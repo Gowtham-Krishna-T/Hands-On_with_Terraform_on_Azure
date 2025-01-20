@@ -6,7 +6,9 @@ terraform {
     }
   }
   cloud {
+
     organization = "testing145"
+
     workspaces {
       name = "Hands_On_With_Terraform_On_Azure"
     }
